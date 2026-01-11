@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Βιογραφικό - Κλέιντα Μούτσα</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <h1><span class="typing-text"></span></h1>
+      <p>Junior Web Developer</p>
+      <a href="#contact" class="cta-button">Επικοινωνία</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="fade-in">
+    <h2>Σχετικά με Εμένα</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="pfp.JPG" alt="Η Φωτογραφία Μου" style="width:200px;border-radius:50%;margin-bottom:15px;">
+              <p>Ονομάζομαι Κλέιντα Μούτσα, είμαι 20 χρονών, έχω τελειώσει Τεχνικός Υποστήριξης Συστημάτων Η/Υ στην ΕΠΑΣ Νέου Ηρακλείου Αττικής και τώρα είμαι φοιτήτρια στον
+                τομέα Computer Science στο Μητροπολιτικό Κολλέγιο. Αναζητώ ευκαιρίες στον χώρο της ανάπτυξης ιστοσελίδων με έντονη θέληση για μάθηση και αναζήτηση νέων γνώσεων.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="fade-in">
+    <h2>Εργασιακή Εμπειρία</h2>
+    <div class="card-grid">
+      <div class="card"><strong>Intern Τεχνικός(Service point)</strong> - Κωτσόβολος-The Mall Athens(2024)<br><br>
+      Εξυπηρέτηση πελατών, Επίλυση προβλημάτων ηλεκτρονικών συσκευών, Εμπειρία στη χρήση SAP & Entersoft ERP,
+     Επαγγελματική επικοινωνία μέσω email και εργαλείων MS Office/Outlook </div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="fade-in">
+    <h2>Γλώσσες</h2>
+    <div class="card-grid">
+      <div class="card">Ελληνικά - Άριστα</div>
+      <div class="card">Αγγλικά - Πολύ Καλά</div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="fade-in">
+    <h2>Σπουδές</h2>
+    <div class="card-grid">
+      <div class="card">Τεχνικός Υποστήριξης Συστημάτων Η/Υ - ΕΠΑΣ Νέου Ηρακλείου Αττικής (2023)</div>
+      <div class="card">Πρωτοετής φοιτήτρια Computer Science - Μητροπολιτικό Κολλέγιο (2025)</div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="fade-in">
+    <h2>Δεξιότητες</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/css3.png" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/bootstrap.png" alt="Bootstrap">
+        <p>Bootstrap</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/wordpress.png" alt="WordPress">
+        <p>WordPress</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/nodejs.png" alt="Node.js">
+        <p>Node.js</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/96/000000/express-js.png" alt="Express.js">
+        <p>Express.js</p>
+      </div>
+      <div class="card">
+        <img src="https://www.cirusch.com/assets/ejs.png" alt="EJS">
+        <p>EJS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="fade-in">
+    <h2>Σεμινάρια & Πιστοποιήσεις</h2>
+    <div class="card-grid">
+      <div class="card">
+        <p>Web Design Course - Udemy (2025)</p>
+        <button class="cta-button open-modal" data-file="Certificate1.pdf">📄 Δες το αρχείο</button>
+      </div>
+      <div class="card">
+        <p>Πιστοποίηση Αγγλικών Proficiency MSU (2021) </p>
+      </div>
+      <div class="card">
+        <p>The Complete Full-Stack Web Developer Bootcamp - Udemy</p>
+        <button class="cta-button open-modal">📄 In progress...</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="pdfFrame" src="" width="100%" height="500px"></iframe>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <section class="fade-in">
+    <h2>Έργα</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Project 1</h3><p>TinDog</p><a href="/Users/kleidamoutsa/Desktop/web dev project/11.3 TinDog Project/index.html">Δες εδώ</a></div>
+      <div class="card"><h3>Project 2</h3><p>Drum Kit</p><a href="/Users/kleidamoutsa/Desktop/web dev project/Drum Kit Starting Files/index.html">Δες εδώ</a></div>
+      <div class="card"><h3>Project 3</h3><p>Dicee</p><a href="/Users/kleidamoutsa/Desktop/web dev project/Dicee+Challenge+-+Starting+Files/dicee.html">Δες εδώ</a></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="fade-in" id="contact">
+    <h2>Επικοινωνία</h2>
+    <div class="card-grid">
+      <div class="card">
+        <p><strong>Τηλέφωνο:</strong> <a href="tel:+306997922967">+30 699 792 2967</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kleintaam@gmail.com">kleintaam@gmail.com</a></p>
+        <a href="tel:+306997922967" class="cta-button">📞 Κάλεσέ με</a>
+        <a href="mailto:kleintaam@gmail.com" class="cta-button">📧 Στείλε Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom JS -->
+  <script src="index.js"></script>
+</body>
+</html>
